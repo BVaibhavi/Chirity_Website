@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.montserrat {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+  }
+.navbar{
+    padding: 30px 40px;
+    padding-left: 160px;
+
+}
+.navbar-nav {
+padding-right: 80px;
+}
+.navbar a span{
+    color:rgb(255, 123, 0);
+    font-family: "Montserrat", serif;
+}
+.navbar i{
+    color:rgb(255, 123, 0);
+}
+.carousel-caption {
+    text-align: left;
+    padding-bottom: 200px;
+}
+.carousel-item h2{
+    font-family: "Montserrat", serif;
+    font-size: 80px;
+}
+.carousel-item p{
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+}
+.btn1{
+    background-color: rgb(255, 123, 0);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border-color: rgb(255, 123, 0);
+}
+.btn2{
+    border-color: rgb(255, 123, 0);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+#second-section{
+    width: 100%;
+    height: 40vh;
+    opacity: 1;
+    display: flex;
+    padding: 30px 20px;
+    margin-top: 9%;
+    text-align: center;
+    padding: 10px 10px;
+}
+.text h5{
+    line-height: 55px;
+}
+.ss h5{
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+} 
+.ss:hover {
+        background-color: rgb(255, 123, 0);
+        font-size: 18px;
+        color: white;
+    }
+
+#welcome{
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url("./images/hero.jpg.webp");
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.welcome2{
+    padding: 70px 10px;
+}
+.welcome1 {
+    color: white;
+    padding: 120px 10px;
+}
+.welcome1 h4{
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+}
+#events{
+    height: 405;
+    width: 100%;
+   padding: 50px 0px;
+}
+.event1{
+    display: flex;
+    padding: 10px 10px;
+}
+.card{
+    margin: 5%;
+    padding: 40px 5px;
+    background-color: rgb(231, 226, 226);
+}
+.card img{
+    height: 80%;
+    width: 1005;
+}
+
+
+#causes{
+    height: 60%;
+    width: 100%;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    background:linear-gradient(rgba(219, 219, 219, 0.9),rgba(233, 231, 231, 0.8)), url("./images/hero.jpg.webp");
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+   padding: 90px 5px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #counter{
+height: 80%;
+width: 100%;
+padding: 100px 10px;
+  }
+  .counter1 h4{
+    line-height: 50px;
+  }
+  .counter1{
+    line-height: 40px;
+  }
+  .counter2 {
+    text-align: center;
+  }
+  .counter3{
+    text-align: center;
+font-size: 80px;
+  }
+  button {
+    background-color:  rgb(255, 123, 0);
+    text-shadow: 1px 1px 1px #202020;
+    font-family: "Lato", sans-serif;
+    font-size: 18pt;
+    border: 1px solid rgb(255, 123, 0);
+    color: lightblue;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+
+
+#footer{
+    width: 100%;
+    height: 90%;
+    padding: 60px ;
+    background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)), url("./images/hero.jpg.webp");
+}
+.footer1{
+    color: white;
+}
+
+#footer1{
+    text-align: center;
+    color: rgb(133, 132, 132);
+    background-color: #000;
+    padding: 15px 0;
+}
